@@ -41,7 +41,7 @@ html {
 }
 
 .info.circle:hover {
-  background: #4bffa5;
+  background: var(--primaryColor);
   transition: 1s all;
 }
 

@@ -1,9 +1,12 @@
 import dynamic from "next/dynamic";
 import CMS from "../../CMS.json";
 
-const ItemIsotope = dynamic(() => import("../components/ItemIsotope"), {
-  ssr: false,
-});
+const ItemIsotopeWorkDynamic = dynamic(
+  () => import("../components/ItemIsotopeWork"),
+  {
+    ssr: false,
+  }
+);
 
 export default function Work() {
   return (
@@ -12,7 +15,7 @@ export default function Work() {
         <div className="title">
           <div className="title_inner">{CMS.WorkSection.title}</div>
         </div>
-        <ItemIsotope />
+        <ItemIsotopeWorkDynamic />
         <div className="clear" />
       </div>
     </div>

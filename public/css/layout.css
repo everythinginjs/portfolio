@@ -22,6 +22,10 @@
 	- Popups
 */
 
+html {
+  --primaryColor: #4bffa5;
+}
+
 /* - Header */
 .header {
   padding: 50px;
@@ -632,7 +636,7 @@
 }
 
 .section.started .started-content .h-title strong {
-  color: #4bffa5;
+  color: var(--primaryColor);
 }
 
 .section.started .started-content .h-subtitles {
@@ -663,7 +667,7 @@
 
 .section.started .started-content .h-subtitle strong,
 .section.started .started-content .typed-subtitle strong {
-  color: #4bffa5;
+  color: var(--primaryColor);
 }
 
 .section.started.layout-creative {
@@ -790,7 +794,7 @@
 
 .section.started .mouse_btn {
   font-size: 24px;
-  color: #4bffa5;
+  color: var(--primaryColor);
   text-align: center;
   position: absolute;
   width: 20px;
@@ -1306,7 +1310,7 @@
 
 .info-list ul li strong {
   font-weight: 400;
-  color: #4bffa5;
+  color: var(--primaryColor);
 }
 
 /* section about fullhd */
@@ -1385,7 +1389,7 @@
 }
 
 .resume-items .resume-item.active .date {
-  color: #4bffa5;
+  color: var(--primaryColor);
   font-weight: 600;
 }
 
@@ -1459,7 +1463,7 @@
   position: absolute;
   height: 4px;
   width: 0%;
-  background: #4bffa5;
+  background: var(--primaryColor);
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
@@ -1499,7 +1503,7 @@
   left: 0;
   top: 3px;
   display: inline-block;
-  color: #4bffa5;
+  color: var(--primaryColor);
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   -moz-osx-font-smoothing: grayscale;
@@ -1570,7 +1574,7 @@
 }
 
 .skills.dotted ul li .progress .da span {
-  background: #4bffa5;
+  background: var(--primaryColor);
 }
 
 .skills.circles ul li {
@@ -1755,7 +1759,7 @@
   width: 0.82em;
   height: 0.82em;
   clip: rect(0em, 0.5em, 1em, 0em);
-  border: 0.09em solid #4bffa5;
+  border: 0.09em solid var(--primaryColor);
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -2692,7 +2696,7 @@
 .service-items .service-item .icon {
   font-size: 36px;
   line-height: normal;
-  color: #4bffa5;
+  color: var(--primaryColor);
 }
 
 .service-items .service-item .name {
@@ -2775,7 +2779,7 @@
 }
 
 .section.works .filters label.glitch-effect {
-  color: #4bffa5;
+  color: var(--primaryColor);
 }
 
 .box-items {
@@ -3033,7 +3037,7 @@
 .pricing-item .icon {
   font-size: 36px;
   line-height: normal;
-  color: #4bffa5;
+  color: var(--primaryColor);
 }
 
 .pricing-item .name {
@@ -3111,7 +3115,7 @@
   vertical-align: middle;
   font-size: 12px;
   color: #101010;
-  background: #4bffa5;
+  background: var(--primaryColor);
   font-weight: 300;
   border-radius: 2px;
   -moz-border-radius: 2px;
@@ -3308,8 +3312,8 @@
   line-height: 18px;
   font-weight: 500;
   font-size: 11px;
-  color: #4bffa5;
-  border: 1px solid #4bffa5;
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
 }
 
 .single-post-text,
@@ -3341,7 +3345,7 @@
 
 .single-post-text p a,
 .comment-text p a {
-  color: #4bffa5;
+  color: var(--primaryColor);
 }
 
 .single-post-text p a:hover,
@@ -3357,7 +3361,7 @@ blockquote {
   color: #999;
   font-style: italic;
   font-weight: 300;
-  border-left: 2px solid #4bffa5;
+  border-left: 2px solid var(--primaryColor);
 }
 
 blockquote code {
@@ -3408,7 +3412,7 @@ object {
   top: 10px;
   width: 4px;
   height: 4px;
-  background: #4bffa5;
+  background: var(--primaryColor);
   border-radius: 4px;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -3526,7 +3530,7 @@ object {
 }
 
 .post-text-bottom span.cat-links a {
-  color: #4bffa5;
+  color: var(--primaryColor);
 }
 
 .post-text-bottom span.cat-links a:hover {
@@ -3547,9 +3551,9 @@ object {
   line-height: 18px;
   font-weight: 500;
   font-size: 14px;
-  color: #4bffa5;
+  color: var(--primaryColor);
   text-decoration: none;
-  border: 1px solid #4bffa5;
+  border: 1px solid var(--primaryColor);
 }
 
 .nav-links {
@@ -3843,22 +3847,29 @@ object {
 
 /* - Popups */
 .popup-box {
-  margin: 30px auto;
-  width: 520px;
+  margin: 100px;
   background: #101010;
   position: relative;
   padding: 0;
 }
 
+#popup-2 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 @media (max-width: 720px) {
   .popup-box {
     width: 440px;
+    margin: 0 auto !important;
   }
 }
 
 @media (max-width: 480px) {
   .popup-box {
     width: 320px;
+    margin: 0 auto !important;
   }
 }
 
@@ -4405,8 +4416,8 @@ object {
   padding: 0 5px;
   font-weight: 500;
   font-size: 14px;
-  color: #4bffa5;
-  border: 1px solid #4bffa5;
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
   text-decoration: none;
 }
 
