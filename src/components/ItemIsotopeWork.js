@@ -2,6 +2,7 @@
 import Isotope from "isotope-layout";
 import { useEffect, useRef, useState } from "react";
 import { parallax } from "../utils";
+import Logo from "./Logo";
 
 const FILTERS = [
   {
@@ -31,22 +32,96 @@ const FILTERS = [
 ];
 
 const IMAGES = [
+  // Logo
   {
     src: "images/work/logo/logoA4zi.jpg",
-    alt: "123",
+    alt: "logoA4zi",
     id: "popup-logoA4zi",
-    title: "Logo",
-    description: "this is a log No1",
+    title: "logoA4zi",
+    description: "this is a logoA4zi",
     filter: "f-logo",
   },
   {
     src: "images/work/logo/logoAcademic.jpg",
-    alt: "123",
+    alt: "logoAcademic",
     id: "popup-logoAcademic",
-    title: "Logo",
-    description: "this is a log No1",
+    title: "logoAcademic",
+    description: "this is a logoAcademic",
     filter: "f-logo",
   },
+  {
+    src: "images/work/logo/logoDbrrane.jpg",
+    alt: "logoDbrrane",
+    id: "popup-logoDbrrane",
+    title: "logoDbrrane",
+    description: "this is a logoDbrrane",
+    filter: "f-logo",
+  },
+  {
+    src: "images/work/logo/logoDmi.png",
+    alt: "logoDmi",
+    id: "popup-logoDmi",
+    title: "logoDmi",
+    description: "this is a logoDmi",
+    filter: "f-logo",
+  },
+  {
+    src: "images/work/logo/logoGreen.jpg",
+    alt: "logoGreen",
+    id: "popup-logoGreen",
+    title: "logoGreen",
+    description: "this is a logoGreen",
+    filter: "f-logo",
+  },
+  {
+    src: "images/work/logo/logoKakh.png",
+    alt: "logoKakh",
+    id: "popup-logoKakh",
+    title: "logoKakh",
+    description: "this is a logoKakh",
+    filter: "f-logo",
+  },
+  {
+    src: "images/work/logo/logoRoti.jpg",
+    alt: "logoRoti",
+    id: "popup-logoRoti",
+    title: "logoRoti",
+    description: "this is a logoRoti",
+    filter: "f-logo",
+  },
+  {
+    src: "images/work/logo/logoSayad.jpg",
+    alt: "logoSayad",
+    id: "popup-logoSayad",
+    title: "logoSayad",
+    description: "this is a logoSayad",
+    filter: "f-logo",
+  },
+  {
+    src: "images/work/logo/logoShahd.jpg",
+    alt: "logoShahd",
+    id: "popup-logoShahd",
+    title: "logoShahd",
+    description: "this is a logoShahd",
+    filter: "f-logo",
+  },
+  {
+    src: "images/work/logo/logoVocomed.jpg",
+    alt: "logoVocomed",
+    id: "popup-logoVocomed",
+    title: "logoVocomed",
+    description: "this is a logoVocomed",
+    filter: "f-logo",
+  },
+  {
+    src: "images/work/logo/logoZehn.jpg",
+    alt: "logoZehn",
+    id: "popup-logoZehn",
+    title: "logoZehn",
+    description: "this is a logoZehn",
+    filter: "f-logo",
+  },
+
   {
     src: "images/work/Catalogue/catCarvisol1.jpg",
     alt: "123",

@@ -36,25 +36,22 @@
   },
   "heroSection": {
     "typings": {
-      "typing1": "I am an <strong>Artist</strong>",
+      "typing1": "My name is<strong>Zi</strong>",
       "typing2": "I am a <strong>Graphic Designer</strong>",
-      "typing3": "I love <strong>Nature</strong>"
+      "typing3": "I an <strong>Artist</strong>"
     },
     "bg": "/images/art/art3.jpg",
     "description": "Hello, I'm <strong>Zeynab Shamloo</strong>, Artist and <br /> Graphic Designer Based in Tehran."
   },
   "aboutSection": {
     "title": "About",
-    "image": "/images/man_r.jpg",
+    "image": "/images/Me.jpg",
     "alt": "me",
-    "description": "Hello! I'm Daniel Curry. Web designer from USA, California, San Francisco. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.",
+    "description": "I am mostly interested in working on creative designs and illustrations to raise awareness and gross in the community. I enable people and businesses to apply a human-centered approach to analyze and solve problems with effective designs. Every feature should strive for impact and quality. I use design processes, techniques, and principles to create the impact we desire, memorable customer experiences we want to drive, and, ultimately, the products people love. No matter how niche or technical the domain or the user, I help, product teams focus on the humans using technology.",
     "cells": {
-      "one": "<strong>Age:</strong> 24",
-      "two": "<strong>Residence:</strong> Iran",
-      "three": "<strong>Freelance:</strong> Available",
-      "four": "<strong>Address:</strong> San Francisco",
-      "five": "<strong>Phone:</strong> +1 256 254 84 56",
-      "six": "<strong>E-mail:</strong> alejandroa@gmail.com"
+      "one": "<strong>Address:</strong> San Francisco",
+      "two": "<strong>Phone:</strong> +989374409883 ",
+      "three": "<strong>E-mail:</strong> zishamloo.art@gmail.com"
     },
     "downloadBtn": {
       "label": "Downlod CV",
@@ -133,8 +130,8 @@
     "title": "Art"
   },
   "footer": {
-    "email": "E: alejandroa@gmail.com",
-    "telephone": "T: +1 (234) 567 80 98",
+    "email": "E: zishamloo.art@gmail.com",
+    "telephone": "T: +98 937 440 98 83",
     "socials": {
       "title": "Follow Me"
     }

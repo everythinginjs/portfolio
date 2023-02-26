@@ -22,7 +22,7 @@ const HomePage = () => {
       <div className="wrapper">
         <Hero />
         <About />
-        <Resume />
+        {/* <Resume /> */}
         <Art />
         <Work />
       </div>
