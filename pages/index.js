@@ -23,8 +23,8 @@ const HomePage = () => {
         <Hero />
         <About />
         <Resume />
-        <Work />
         <Art />
+        <Work />
       </div>
     </Layout>
   );

@@ -70,6 +70,7 @@ const ItemIsotopeArt = () => {
       {/* portfolio filter */}
       <div className="filter-menu content-box">
         <div className="filters">
+          {/* all */}
           <div className="btn-group">
             <label
               data-text="All"
@@ -80,79 +81,30 @@ const ItemIsotopeArt = () => {
               All
             </label>
           </div>
+          {/* arts */}
           <div className="btn-group">
             <label
-              className={`c-pointer ${activeBtn("f-video")}`}
-              onClick={handleFilterKeyChange("f-video")}
-              data-text="Video"
+              className={`c-pointer ${activeBtn("f-arts")}`}
+              onClick={handleFilterKeyChange("f-arts")}
+              data-text="Arts"
             >
-              <input type="radio" name="fl_radio" defaultValue=".f-video" />
-              Flayer
-            </label>
-          </div>
-          <div className="btn-group">
-            <label
-              className={`c-pointer ${activeBtn("f-music")}`}
-              onClick={handleFilterKeyChange("f-music")}
-              data-text="Music"
-            >
-              <input type="radio" name="fl_radio" defaultValue=".f-music" />
-              Catalogue
-            </label>
-          </div>
-          <div className="btn-group">
-            <label
-              className={`c-pointer ${activeBtn("f-links")}`}
-              onClick={handleFilterKeyChange("f-links")}
-              data-text="Links"
-            >
-              <input type="radio" name="fl_radio" defaultValue=".f-links" />
-              Stationary
-            </label>
-          </div>
-          <div className="btn-group">
-            <label
-              className={`c-pointer ${activeBtn("f-image")}`}
-              onClick={handleFilterKeyChange("f-image")}
-              data-text="Image"
-            >
-              <input type="radio" name="fl_radio" defaultValue=".f-image" />
-              Web Design
-            </label>
-          </div>
-          <div className="btn-group">
-            <label
-              className={`c-pointer ${activeBtn("f-logo")}`}
-              onClick={handleFilterKeyChange("f-logo")}
-              data-text="Gallery"
-            >
-              <input type="radio" name="fl_radio" defaultValue=".f-logo" />
-              Logo
-            </label>
-          </div>
-          <div className="btn-group">
-            <label
-              className={`c-pointer ${activeBtn("f-banner")}`}
-              onClick={handleFilterKeyChange("f-banner")}
-              data-text="Content"
-            >
-              <input type="radio" name="fl_radio" defaultValue=".f-banner" />
-              Banner
+              <input type="radio" name="fl_radio" defaultValue=".f-arts" />
+              Atrs
             </label>
           </div>
         </div>
       </div>
       {/* portfolio items */}
       <div className="box-items portfolio-items">
-        {/* banners */}
-        <div className="box-item f-banner">
+        {/*art2*/}
+        <div className="box-item f-art">
           <div className="image">
-            <a href="#popup-1" className="has-popup-media hover-animated">
+            <a href="#popup-art2" className="has-popup-media hover-animated">
               {/* thumbnail */}
               <img
-                src="images/banner.png"
+                src="images/art/art2.jpg"
                 className="wp-post-image"
-                alt="123"
+                alt="art2"
                 loading="lazy"
               />
               <span className="info circle">
@@ -168,27 +120,27 @@ const ItemIsotopeArt = () => {
               </span>
             </a>
           </div>
-          <div id="popup-1" className="popup-box mfp-fade mfp-hide">
+          <div id="popup-art2" className="popup-box mfp-fade mfp-hide">
             <div className="content">
               {/* original */}
               <img
-                src="images/banner.png"
+                src="images/art/art2.jpg"
                 className="wp-post-image"
-                alt="123"
+                alt="art2"
                 loading="lazy"
               />
             </div>
           </div>
         </div>
-
-        <div className="box-item f-banner">
+        {/*art3*/}
+        <div className="box-item f-art">
           <div className="image">
-            <a href="#popup-2" className="has-popup-media hover-animated">
+            <a href="#popup-art3" className="has-popup-media hover-animated">
               {/* thumbnail */}
               <img
-                src="images/banner-2.png"
+                src="images/art/art3.jpg"
                 className="wp-post-image"
-                alt="123"
+                alt="art3"
                 loading="lazy"
               />
               <span className="info circle">
@@ -196,80 +148,7 @@ const ItemIsotopeArt = () => {
                   <span className="vertical-center">
                     <span className="icon fas fa-plus" />
                     <span className="desc">
-                      <span className="category">Banner 2</span>
-                      <span className="name">this is a banner No2</span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </a>
-          </div>
-          <div id="popup-2" className="popup-box mfp-fade mfp-hide">
-            <div className="content">
-              {/* original */}
-              <img
-                src="images/banner-2.png"
-                className="wp-post-image"
-                alt="123"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="box-item f-banner">
-          <div className="image">
-            <a href="#popup-3" className="has-popup-media hover-animated">
-              {/* thumbnail */}
-              <img
-                src="images/banner-2.png"
-                className="wp-post-image"
-                alt="123"
-                loading="lazy"
-              />
-              <span className="info circle">
-                <span className="centrize full-width">
-                  <span className="vertical-center">
-                    <span className="icon fas fa-plus" />
-                    <span className="desc">
-                      <span className="category">Banner 2</span>
-                      <span className="name">this is a banner No2</span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </a>
-          </div>
-          <div id="popup-3" className="popup-box mfp-fade mfp-hide">
-            <div className="content">
-              {/* original */}
-              <img
-                src="images/banner-2.png"
-                className="wp-post-image"
-                alt="123"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-
-        {/* logo */}
-        <div className="box-item f-logo">
-          <div className="image">
-            <a href="#popup-4" className="has-popup-media hover-animated">
-              {/* thumbnail */}
-              <img
-                src="images/logo.png"
-                className="wp-post-image"
-                alt="123"
-                loading="lazy"
-              />
-              <span className="info circle">
-                <span className="centrize full-width">
-                  <span className="vertical-center">
-                    <span className="icon fas fa-plus" />
-                    <span className="desc">
-                      <span className="category">Logo</span>
+                      <span className="category">Banner</span>
                       <span className="name">this is a banner No1</span>
                     </span>
                   </span>
@@ -277,13 +156,373 @@ const ItemIsotopeArt = () => {
               </span>
             </a>
           </div>
-          <div id="popup-4" className="popup-box mfp-fade mfp-hide">
+          <div id="popup-art3" className="popup-box mfp-fade mfp-hide">
             <div className="content">
               {/* original */}
               <img
-                src="images/logo.png"
+                src="images/art/art3.jpg"
                 className="wp-post-image"
-                alt="123"
+                alt="art3"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        {/*art4*/}
+        <div className="box-item f-art">
+          <div className="image">
+            <a href="#popup-art4" className="has-popup-media hover-animated">
+              {/* thumbnail */}
+              <img
+                src="images/art/art4.jpg"
+                className="wp-post-image"
+                alt="art4"
+                loading="lazy"
+              />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-plus" />
+                    <span className="desc">
+                      <span className="category">Banner</span>
+                      <span className="name">this is a banner No1</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div id="popup-art4" className="popup-box mfp-fade mfp-hide">
+            <div className="content">
+              {/* original */}
+              <img
+                src="images/art/art4.jpg"
+                className="wp-post-image"
+                alt="art4"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        {/*art5*/}
+        <div className="box-item f-art">
+          <div className="image">
+            <a href="#popup-art5" className="has-popup-media hover-animated">
+              {/* thumbnail */}
+              <img
+                src="images/art/art5.jpg"
+                className="wp-post-image"
+                alt="art5"
+                loading="lazy"
+              />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-plus" />
+                    <span className="desc">
+                      <span className="category">Banner</span>
+                      <span className="name">this is a banner No1</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div id="popup-art5" className="popup-box mfp-fade mfp-hide">
+            <div className="content">
+              {/* original */}
+              <img
+                src="images/art/art5.jpg"
+                className="wp-post-image"
+                alt="art5"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        {/*art6*/}
+        <div className="box-item f-art">
+          <div className="image">
+            <a href="#popup-art6" className="has-popup-media hover-animated">
+              {/* thumbnail */}
+              <img
+                src="images/art/art6.jpg"
+                className="wp-post-image"
+                alt="art6"
+                loading="lazy"
+              />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-plus" />
+                    <span className="desc">
+                      <span className="category">Banner</span>
+                      <span className="name">this is a banner No1</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div id="popup-art6" className="popup-box mfp-fade mfp-hide">
+            <div className="content">
+              {/* original */}
+              <img
+                src="images/art/art6.jpg"
+                className="wp-post-image"
+                alt="art6"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        {/*art7*/}
+        <div className="box-item f-art">
+          <div className="image">
+            <a href="#popup-art7" className="has-popup-media hover-animated">
+              {/* thumbnail */}
+              <img
+                src="images/art/art7.jpg"
+                className="wp-post-image"
+                alt="art7"
+                loading="lazy"
+              />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-plus" />
+                    <span className="desc">
+                      <span className="category">Banner</span>
+                      <span className="name">this is a banner No1</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div id="popup-art7" className="popup-box mfp-fade mfp-hide">
+            <div className="content">
+              {/* original */}
+              <img
+                src="images/art/art7.jpg"
+                className="wp-post-image"
+                alt="art7"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        {/*art8*/}
+        <div className="box-item f-art">
+          <div className="image">
+            <a href="#popup-art8" className="has-popup-media hover-animated">
+              {/* thumbnail */}
+              <img
+                src="images/art/art8.jpg"
+                className="wp-post-image"
+                alt="art8"
+                loading="lazy"
+              />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-plus" />
+                    <span className="desc">
+                      <span className="category">Banner</span>
+                      <span className="name">this is a banner No1</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div id="popup-art8" className="popup-box mfp-fade mfp-hide">
+            <div className="content">
+              {/* original */}
+              <img
+                src="images/art/art8.jpg"
+                className="wp-post-image"
+                alt="art8"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        {/*art9*/}
+        <div className="box-item f-art">
+          <div className="image">
+            <a href="#popup-art9" className="has-popup-media hover-animated">
+              {/* thumbnail */}
+              <img
+                src="images/art/art9.jpg"
+                className="wp-post-image"
+                alt="art9"
+                loading="lazy"
+              />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-plus" />
+                    <span className="desc">
+                      <span className="category">Banner</span>
+                      <span className="name">this is a banner No1</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div id="popup-art9" className="popup-box mfp-fade mfp-hide">
+            <div className="content">
+              {/* original */}
+              <img
+                src="images/art/art9.jpg"
+                className="wp-post-image"
+                alt="art9"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        {/*art10*/}
+        <div className="box-item f-art">
+          <div className="image">
+            <a href="#popup-art10" className="has-popup-media hover-animated">
+              {/* thumbnail */}
+              <img
+                src="images/art/art10.jpg"
+                className="wp-post-image"
+                alt="art10"
+                loading="lazy"
+              />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-plus" />
+                    <span className="desc">
+                      <span className="category">Banner</span>
+                      <span className="name">this is a banner No1</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div id="popup-art10" className="popup-box mfp-fade mfp-hide">
+            <div className="content">
+              {/* original */}
+              <img
+                src="images/art/art10.jpg"
+                className="wp-post-image"
+                alt="art10"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        {/*art11*/}
+        <div className="box-item f-art">
+          <div className="image">
+            <a href="#popup-art11" className="has-popup-media hover-animated">
+              {/* thumbnail */}
+              <img
+                src="images/art/art11.jpg"
+                className="wp-post-image"
+                alt="art11"
+                loading="lazy"
+              />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-plus" />
+                    <span className="desc">
+                      <span className="category">Banner</span>
+                      <span className="name">this is a banner No1</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div id="popup-art11" className="popup-box mfp-fade mfp-hide">
+            <div className="content">
+              {/* original */}
+              <img
+                src="images/art/art11.jpg"
+                className="wp-post-image"
+                alt="art11"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        {/*art13*/}
+        <div className="box-item f-art">
+          <div className="image">
+            <a href="#popup-art13" className="has-popup-media hover-animated">
+              {/* thumbnail */}
+              <img
+                src="images/art/art13.jpg"
+                className="wp-post-image"
+                alt="art13"
+                loading="lazy"
+              />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-plus" />
+                    <span className="desc">
+                      <span className="category">Banner</span>
+                      <span className="name">this is a banner No1</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div id="popup-art13" className="popup-box mfp-fade mfp-hide">
+            <div className="content">
+              {/* original */}
+              <img
+                src="images/art/art13.jpg"
+                className="wp-post-image"
+                alt="art13"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        {/*art14*/}
+        <div className="box-item f-art">
+          <div className="image">
+            <a href="#popup-art14" className="has-popup-media hover-animated">
+              {/* thumbnail */}
+              <img
+                src="images/art/art14.jpg"
+                className="wp-post-image"
+                alt="art14"
+                loading="lazy"
+              />
+              <span className="info circle">
+                <span className="centrize full-width">
+                  <span className="vertical-center">
+                    <span className="icon fas fa-plus" />
+                    <span className="desc">
+                      <span className="category">Banner</span>
+                      <span className="name">this is a banner No1</span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </a>
+          </div>
+          <div id="popup-art14" className="popup-box mfp-fade mfp-hide">
+            <div className="content">
+              {/* original */}
+              <img
+                src="images/art/art14.jpg"
+                className="wp-post-image"
+                alt="art14"
                 loading="lazy"
               />
             </div>
