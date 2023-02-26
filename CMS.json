@@ -1,10 +1,10 @@
 {
   "global": {
-    "siteTitle": "Cvio - Resume/CV React NextJS Template"
+    "siteTitle": "Zi Shamloo"
   },
   "header": {
     "logo": {
-      "firstName": "Zeinab",
+      "firstName": "Zeynab",
       "lastName": "Shamloo",
       "hover": {
         "firstWord": "Download",
@@ -24,24 +24,24 @@
         "label": "Resume",
         "url": "/#Resume"
       },
-      "work": {
-        "label": "Work",
-        "url": "/#Work"
-      },
       "art": {
         "label": "Art",
         "url": "/#Art"
+      },
+      "work": {
+        "label": "Work",
+        "url": "/#Work"
       }
     }
   },
   "heroSection": {
     "typings": {
-      "typing1": "I code cool <strong>websites</strong>",
-      "typing2": "I develop <strong>mobile apps</strong>",
-      "typing3": "I love <strong>wordpress</strong>"
+      "typing1": "I am an <strong>Artist</strong>",
+      "typing2": "I am a <strong>Graphic Designer</strong>",
+      "typing3": "I love <strong>Nature</strong>"
     },
-    "bg": "/images/started_image_p.jpg",
-    "description": "Hello, I'm <strong>Alejandro Abeyta</strong>, UX/UI Designer and <br /> Front-end Developer Based in San Francisco."
+    "bg": "/images/art/art3.jpg",
+    "description": "Hello, I'm <strong>Zeynab Shamloo</strong>, Artist and <br /> Graphic Designer Based in Tehran."
   },
   "aboutSection": {
     "title": "About",
@@ -50,7 +50,7 @@
     "description": "Hello! I'm Daniel Curry. Web designer from USA, California, San Francisco. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.",
     "cells": {
       "one": "<strong>Age:</strong> 24",
-      "two": "<strong>Residence:</strong> USA",
+      "two": "<strong>Residence:</strong> Iran",
       "three": "<strong>Freelance:</strong> Available",
       "four": "<strong>Address:</strong> San Francisco",
       "five": "<strong>Phone:</strong> +1 256 254 84 56",
