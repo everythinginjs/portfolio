@@ -2790,7 +2790,7 @@ html {
 }
 
 .box-items .box-item {
-  width: 50%;
+  width: 100%;
   margin: 0;
   padding: 0 50px 100px 50px;
   position: relative;
@@ -2807,6 +2807,10 @@ html {
 .box-items .box-item .image a {
   display: block;
   font-size: 0;
+}
+
+.box-items-art {
+  width: 50% !important;
 }
 
 .box-items .box-item .image a img {
@@ -3946,10 +3950,10 @@ object {
 }
 
 .mfp-close-btn-in .mfp-close {
-  top: 40px !important;
-  right: 0 !important;
+  /* top: 40px !important;
+  right: 0 !important; */
   padding-right: 0 !important;
-  width: 54px !important;
+  width: 24px !important;
   height: 54px !important;
   line-height: 54px !important;
   opacity: 1 !important;
@@ -3964,7 +3968,11 @@ object {
   color: #fff !important;
 }
 
-.mfp-close-btn-in .popup-box .mfp-close,
+.mfp-close-btn-in .popup-box .mfp-close {
+  top: -5%;
+  right: 0 !important;
+}
+
 .mfp-close-btn-in .mfp-iframe-holder .mfp-close {
   top: 0 !important;
 }

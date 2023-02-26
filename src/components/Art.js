@@ -1,12 +1,9 @@
 import dynamic from "next/dynamic";
 import CMS from "../../CMS.json";
 
-const ItemIsotopeArtDynamic = dynamic(
-  () => import("../components/ItemIsotopeArt"),
-  {
-    ssr: false,
-  }
-);
+const ItemIsotopeArt = dynamic(() => import("../components/ItemIsotopeArt"), {
+  ssr: false,
+});
 
 export default function Art() {
   return (
@@ -15,7 +12,7 @@ export default function Art() {
         <div className="title">
           <div className="title_inner">{CMS.ArtSection.title}</div>
         </div>
-        <ItemIsotopeArtDynamic />
+        <ItemIsotopeArt />
         <div className="clear" />
       </div>
     </div>
