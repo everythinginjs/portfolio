@@ -2782,13 +2782,6 @@ html {
   color: var(--primaryColor);
 }
 
-.box-items {
-  position: relative;
-  margin-left: -50px;
-  margin-right: -50px;
-  font-size: 0px;
-}
-
 .box-items .box-item {
   width: 100%;
   margin: 0;

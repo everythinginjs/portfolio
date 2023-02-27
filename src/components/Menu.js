@@ -17,17 +17,12 @@ export default function Menu() {
               </a>
             </li>
             <li className="menu-item">
-              <a href={CMS.header.menu.resume.url}>
-                {CMS.header.menu.resume.label}
-              </a>
+              <a href={CMS.header.menu.art.url}>{CMS.header.menu.art.label}</a>
             </li>
             <li className="menu-item">
               <a href={CMS.header.menu.work.url}>
                 {CMS.header.menu.work.label}
               </a>
-            </li>
-            <li className="menu-item">
-              <a href={CMS.header.menu.art.url}>{CMS.header.menu.art.label}</a>
             </li>
           </ul>
         </div>

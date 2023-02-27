@@ -14,7 +14,7 @@ const Preloader = () => {
     }, 1000);
   }, []);
   return (
-    <Fragment>
+    <>
       <div
         className="preloader"
         style={{ display: preloader ? "block" : "none" }}
@@ -28,7 +28,7 @@ const Preloader = () => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 };
 export default Preloader;

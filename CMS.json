@@ -30,7 +30,7 @@
       },
       "work": {
         "label": "Work",
-        "url": "/#Work"
+        "url": "/#Logo"
       }
     }
   },
@@ -45,7 +45,7 @@
   },
   "aboutSection": {
     "title": "About",
-    "image": "/images/Me.jpg",
+    "image": "/images/me.jpg",
     "alt": "me",
     "description": "I am mostly interested in working on creative designs and illustrations to raise awareness and gross in the community. I enable people and businesses to apply a human-centered approach to analyze and solve problems with effective designs. Every feature should strive for impact and quality. I use design processes, techniques, and principles to create the impact we desire, memorable customer experiences we want to drive, and, ultimately, the products people love. No matter how niche or technical the domain or the user, I help, product teams focus on the humans using technology.",
     "cells": {
@@ -58,76 +58,20 @@
       "url": "/#downloadCV"
     }
   },
-  "resumeSection": {
-    "title": "Resume",
-    "experience": {
-      "title": "Experience",
-      "sections": {
-        "one": {
-          "date": "2013 - Present",
-          "name": "Art Director - Facebook Inc.",
-          "text": " Collaborate with creative and development teams on the execution of ideas."
-        },
-        "two": {
-          "date": "2011 - 2012",
-          "name": "Front-End Developer - Google Inc.",
-          "text": "Monitored technical aspects of the front-end delivery for projects."
-        },
-        "three": {
-          "date": "2009 - 2010",
-          "name": "Senior Developer - ABC Inc.",
-          "text": "Optimize your website and apps performance using latest technology."
-        }
-      }
-    },
-    "education": {
-      "title": "Education",
-      "sections": {
-        "one": {
-          "date": "2006 - 2008",
-          "name": "Art University - New York",
-          "text": "Bachelors Degree in Computer Science ABC Technical Institute, Jefferson, Missouri."
-        },
-        "two": {
-          "date": "2005 - 2006",
-          "name": "Programming Course - Paris",
-          "text": "Coursework - Git, WordPress, Javascript, iOS, Android, CSS, and JavaScript."
-        },
-        "three": {
-          "date": "2004 - 2005",
-          "name": "Web Design Course - London",
-          "text": " Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript."
-        }
-      }
-    },
-    "language": {
-      "title": "Languages Skills",
-      "one": {
-        "label": "English",
-        "percentage": "50%"
-      },
-      "two": {
-        "label": "German",
-        "percentage": "40%"
-      }
-    },
-    "skills": {
-      "title": "Design Skills",
-      "one": {
-        "label": "Photoshop",
-        "percentage": "90%"
-      },
-      "two": {
-        "label": "Illustrations",
-        "percentage": "60%"
-      }
-    }
+  "logoSection": {
+    "title": "Logo"
   },
-  "WorkSection": {
-    "title": "Work"
+  "catalogueSection": {
+    "title": "Catalogue"
   },
-  "ArtSection": {
+  "posterSection": {
+    "title": "Poster"
+  },
+  "artSection": {
     "title": "Art"
+  },
+  "webDesign": {
+    "title": "Web Design"
   },
   "footer": {
     "email": "E: zishamloo.art@gmail.com",

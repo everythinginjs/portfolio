@@ -16,7 +16,7 @@ const Layout = ({ children, noHeader }) => {
   }, []);
 
   return (
-    <Fragment>
+    <>
       <VideoPopup />
       <ImageView />
       <ImageGallery />
@@ -47,7 +47,7 @@ const Layout = ({ children, noHeader }) => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 };
 export default Layout;

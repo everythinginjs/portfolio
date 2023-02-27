@@ -5,7 +5,7 @@ const Content = ({ content, close }) => {
     close(false);
   });
   return (
-    <Fragment>
+    <>
       <div className="mfp-bg mfp-fade popup-box-inline mfp-ready" />
 
       <div
@@ -32,7 +32,7 @@ const Content = ({ content, close }) => {
           <div className="mfp-preloader">Loading...</div>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 };
 

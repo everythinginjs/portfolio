@@ -60,7 +60,7 @@ const IMAGES = [
   },
 ];
 
-const ItemIsotopeArt = () => {
+const ArtGallerty = () => {
   return (
     <div className="box-items portfolio-items-art">
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 2 }}>
@@ -112,4 +112,4 @@ const ItemIsotopeArt = () => {
     </div>
   );
 };
-export default ItemIsotopeArt;
+export default ArtGallerty;
